@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch="." />
-  <default revision="refs/tags/android-6.0.0_r1"
+  <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -77,6 +77,8 @@
   <project path="device/asus/fugu" name="device/asus/fugu" groups="notdefault,device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="notdefault,device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="notdefault,device,bullhead" />
+  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="notdefault,device,bullhead" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="notdefault,pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="notdefault,pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="notdefault,pdk" />
@@ -92,6 +94,8 @@
   <project path="device/google/atv" name="device/google/atv" groups="notdefault,device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="notdefault,device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="notdefault,device,flounder,broadcom_pdk" clone-depth="1" />
+  <project path="device/huawei/angler" name="device/huawei/angler" groups="notdefault,device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="notdefault,device,angler,broadcom_pdk" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="notdefault,device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="notdefault,device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu,broadcom_pdk" />
@@ -365,6 +369,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="notdefault,qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="notdefault,qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="notdefault,qcom_msm8960" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="notdefault,qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="notdefault,qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="notdefault,qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="notdefault,pdk,qcom_msm8x74" />
