@@ -56,6 +56,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="meijjaa" />
   <project path="frameworks/base" name="android_frameworks_base" remote="meijjaa" />
   <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" />
+  <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="meijjaa" />
   <project path="system/core" name="android_system_core" remote="meijjaa" />
   <project path="system/extras" name="android_system_extras" remote="meijjaa" />
