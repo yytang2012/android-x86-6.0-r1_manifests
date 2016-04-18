@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch="." />
-  <default revision="refs/tags/android-6.0.1_r24"
+  <default revision="refs/tags/android-6.0.1_r31"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -97,6 +97,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
   <project path="device/google/atv" name="device/google/atv" groups="notdefault,device,fugu,broadcom_pdk,generic_fs" />
+  <project path="device/google/dragon" name="device/google/dragon" groups="notdefault,device,dragon" />
+  <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="notdefault,device,dragon" clone-depth="1" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="notdefault,device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="notdefault,device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="notdefault,device,angler,broadcom_pdk" />
@@ -401,6 +403,7 @@
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
