@@ -35,6 +35,7 @@
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
   <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="marshmallow-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
@@ -460,7 +461,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
