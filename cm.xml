@@ -45,6 +45,7 @@
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+
 <!-- END ANDROID-X86 -->
 
 <!-- BEGIN CYANOGENMOD-X86 -->
@@ -55,9 +56,12 @@
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="cm-13.0-x86" />
   <project path="device/generic/android_x86" name="device/generic/x86" groups="pdk" remote="x86" revision="cm13" />
   <project path="device/generic/android_x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="cm13" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="frameworks/av" name="android_frameworks_av" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="frameworks/base" name="android_frameworks_base" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="system/core" name="android_system_core" remote="meijjaa" revision="cm-13.0-x86" />
@@ -101,7 +105,6 @@
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" />
   <project path="external/exfat" name="android_external_exfat" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="android_external_fuse" />
@@ -208,7 +211,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="notdefault,pdk,broadcom_wlan" />
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" />
   <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" />
-  <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" groups="intel" />
   <project path="hardware/intel/common/libwsbm" name="android_hardware_intel_common_libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" groups="intel" />
   <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" groups="intel" />
