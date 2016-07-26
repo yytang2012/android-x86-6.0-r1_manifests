@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r43" />
+           revision="refs/tags/android-6.0.1_r52" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
@@ -51,18 +51,18 @@
   <project path="build" name="android_build" groups="pdk" remote="meijjaa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="cm-13.0-x86" />
   <project path="device/generic/android_x86" name="device/generic/x86" groups="pdk" remote="x86" revision="cm13" />
   <project path="device/generic/android_x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="cm13" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="meijjaa" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="meijjaa" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" />
-  <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="meijjaa" />
-  <project path="system/core" name="android_system_core" remote="meijjaa" />
-  <project path="system/extras" name="android_system_extras" remote="meijjaa" />
-  <project path="system/vold" name="android_system_vold" remote="meijjaa" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/core" name="android_system_core" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/extras" name="android_system_extras" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/vold" name="android_system_vold" remote="meijjaa" revision="cm-13.0-x86" />
 <!-- END CYANOGENMOD-X86 -->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -105,6 +105,7 @@
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="android_external_fuse" />
+  <project path="external/gello-build" name="android_external_gello_build" />
   <project path="external/google" name="android_external_google" />
   <project path="external/gmock" name="android_external_gmock"/>
   <project path="external/gson" name="android_external_gson" />
@@ -125,7 +126,6 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="android_external_libtar" />
   <project path="external/libusb" name="android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
@@ -297,7 +297,6 @@
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" groups="pdk-fs" />
-  <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" groups="pdk-fs" />
@@ -305,6 +304,7 @@
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" />
   <project path="packages/experimental" name="android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-fs" />
@@ -323,6 +323,7 @@
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" groups="pdk-fs" />
+  <project path="packages/services/CMAudioService" name="android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/LiveLockScreenService" name="android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
@@ -379,11 +380,11 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
@@ -451,6 +452,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="notdefault,pdk-cw-fs,pdk-fs" remote="aosp" />
