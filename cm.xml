@@ -22,7 +22,7 @@
            sync-j="4" />
 
 <!-- BEGIN ANDROID-X86 -->
-  <project path="kernel/kernel-4.4" name="kernel/common" remote="x86" revision="kernel-4.4" />
+  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.4" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
   <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="marshmallow-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
