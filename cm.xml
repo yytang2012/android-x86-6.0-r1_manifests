@@ -50,7 +50,7 @@
 <!-- END ANDROID-X86 -->
 
 <!-- BEGIN CYANOGENMOD-X86 -->
-  <project path="build" name="android_build" groups="pdk" remote="meijjaa" >
+  <project path="build" name="platform/build" groups="pdk" remote="x86" revision="cm-13.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
