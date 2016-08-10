@@ -34,6 +34,7 @@
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="marshmallow-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="marshmallow-x86" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="marshmallow-x86" />
+  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="marshmallow-x86" />
   <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="marshmallow-x86" />
   <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="marshmallow-x86" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="marshmallow-x86" />
@@ -65,8 +66,10 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
   <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="marshmallow-x86" />
@@ -415,7 +418,6 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
