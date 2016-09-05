@@ -55,23 +55,23 @@
   <project path="build" name="platform/build" groups="pdk" remote="x86" revision="cm-13.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="bionic" name="bionic" remote="x86" groups="pdk" revision="cm-13.0-x86" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="cm-13.0-x86" />
   <project path="device/generic/android_x86" name="device/generic/x86" groups="pdk" remote="x86" revision="cm-13.0-x86" />
   <project path="device/generic/android_x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="cm-13.0-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="frameworks/av" name="platform/frameworks/av" remote="x86" revision="cm-13.0-x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="cm-13.0-x86" />
+  <project path="frameworks/native" name="platform/frameworks/native" remote="x86" revision="cm-13.0-x86" />
   <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/powerbtnd" name="hardware-powerbtnd" remote="x86" revision="cm-13.0-x86" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" remote="x86" revision="cm-13.0-x86" />
   <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/core" name="android_system_core" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="system/extras" name="android_system_extras" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="system/vold" name="android_system_vold" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/core" name="platform/system/core" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/extras" name="platform/system/extras" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/vold" name="platform/system/vold" remote="x86" revision="cm-13.0-x86" />
 <!-- END CYANOGENMOD-X86 -->
 
 <!-- BEGIN CYANOGENMOD -->
