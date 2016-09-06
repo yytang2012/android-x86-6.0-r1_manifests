@@ -48,6 +48,7 @@
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
+  <project path="system/vold" name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
 
 <!-- END ANDROID-X86 -->
 
@@ -71,7 +72,6 @@
   <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
   <project path="system/core" name="platform/system/core" remote="x86" revision="cm-13.0-x86" />
   <project path="system/extras" name="platform/system/extras" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/vold" name="platform/system/vold" remote="x86" revision="cm-13.0-x86" />
 <!-- END CYANOGENMOD-X86 -->
 
 <!-- BEGIN CYANOGENMOD -->
