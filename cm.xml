@@ -68,8 +68,8 @@
   <project path="frameworks/av" name="platform/frameworks/av" remote="x86" revision="cm-13.0-x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="cm-13.0-x86" />
   <project path="frameworks/native" name="platform/frameworks/native" remote="x86" revision="cm-13.0-x86" />
-  <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/intel/intel-driver" name="platform/hardware/intel/intel-driver" remote="x86" revision="cm-13.0-x86" />
+  <project path="hardware/intel/libva" name="platform/hardware/intel/libva" remote="x86" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="platform/hardware/powerbtnd" remote="x86" revision="cm-13.0-x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="cm-13.0-x86" />
   <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
