@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="." name="x86"/>
+  <remote fetch="git://git.osdn.net/gitroot/android-x86" name="x86"/>
   <remote name="yytang2012" 
       fetch="https://github.com/yytang2012/" />
 
