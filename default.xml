@@ -2,16 +2,24 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="." name="x86"/>
+  <remote name="yytang2012" 
+      fetch="https://github.com/yytang2012/" />
 
   <default remote="aosp" revision="refs/tags/android-6.0.1_r66" sync-c="true" sync-j="4"/>
 
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r66"/>
+<!-- 
   <project groups="pdk" name="device/generic/common" remote="x86" revision="a21141c0b56148d98f42356d9b07a5cdb8126e20" upstream="marshmallow-x86"/>
+-->
   <project name="device/generic/firmware" remote="x86" revision="cb43849c4247c1cab8dcf1dce9c5fabdcf1e530e" upstream="marshmallow-x86"/>
   <project groups="pdk" name="device/generic/x86" remote="x86" revision="6bbcc86e8ff71709a2b0267c03d256a778fb8d04" upstream="marshmallow-x86"/>
   <project groups="pdk" name="device/generic/x86_64" remote="x86" revision="14256e2bcbe4b558cba482d4c7f35d6e7f2f9cc9" upstream="marshmallow-x86"/>
   <project groups="pdk" name="device/sample" revision="b239828ba6f282793de417a46770c192c153ac47" upstream="refs/tags/android-6.0.1_r66"/>
+  
+<!-- 
   <project name="kernel/common" path="kernel" remote="x86" revision="1ba3566e163ae89d9dae9b230a3b9799d6e2c61d" upstream="kernel-4.4"/>
+-->
+ 
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/art" path="art" remote="x86" revision="1dff62f822392dd3f95ec23ba578bf42430ba112" upstream="marshmallow-x86"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="x86" revision="e025056a17320f1eb3347aa51462e08eca72e594" upstream="marshmallow-x86"/>
@@ -244,7 +252,11 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zxing" path="external/zxing" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="x86" revision="d8bd197f4346cacfc8f6b5b2c875db4de4600393" upstream="marshmallow-x86"/>
+
+<!--
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="x86" revision="4c12d8c482f7a4e6f0220139aef9c6a4f91765b0" upstream="marshmallow-x86"/>
+-->
+
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="83d9692ee33de81b19738356a342682593686c34" upstream="refs/tags/android-6.0.1_r66"/>
@@ -297,7 +309,10 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="x86" revision="5b3d879822784698e3c48df61f19a8af97007447" upstream="marshmallow-x86"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="x86" revision="76edfc0c3c4bcd737bf7abae3386e74ffe1fa6c5" upstream="marshmallow-x86"/>
   <project name="platform/hardware/liblights" path="hardware/liblights" remote="x86" revision="fd2e518ce7f63e699f560460bf65923e25e166a8" upstream="marshmallow-x86"/>
+<!--
   <project name="platform/hardware/libsensors" path="hardware/libsensors" remote="x86" revision="ac738e6df03b9e6f94d23ecbafc10c38a14cb92e" upstream="marshmallow-x86"/>
+-->
+  
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="x86" revision="836e7e2e097c00852b7cdcfe2a2edd3bbcd2c2c5" upstream="marshmallow-x86"/>
   <project name="platform/hardware/x86power" path="hardware/x86power" remote="x86" revision="338e1f465738acec2d2ca5f9ef2d390456a5d752" upstream="marshmallow-x86"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="c95c72ec796254f98e12d108d6f6d0e06d01bcd3" upstream="refs/tags/android-6.0.1_r66"/>
@@ -394,4 +409,12 @@
   <project groups="pdk" name="platform/system/netd" path="system/netd" revision="c8683d7eb9bb95de2090431e8daaa45d92b45e38" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="1f76969bd8b6179f256dafb938bb458bc997c23d" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="x86" revision="5fefecb7eed6a9edcf540911fe017996acc4fbd5" upstream="marshmallow-x86"/>
+
+
+<!-- yytang2012 -->
+  <project path="device/generic/common" remote="yytang2012" revision="master" name="android-x86-6.0-r1_device_generic_common"/>
+  <project path="hardware/libsensors" remote="yytang2012" revision="master" name="android-x86-6.0-r1_hardware_libsensors"/>
+  <project path="frameworks/base" remote="yytang2012" revision="master" name="android-x86-6.0-r1_frameworks_base"/>
+  <project path="kernel" remote="yytang2012" revision="master" name="android-x86-6.0-r1_kernel" />
+
 </manifest>
