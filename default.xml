@@ -11,7 +11,7 @@
   <project groups="pdk" name="device/generic/x86" remote="x86" revision="6bbcc86e8ff71709a2b0267c03d256a778fb8d04" upstream="marshmallow-x86"/>
   <project groups="pdk" name="device/generic/x86_64" remote="x86" revision="14256e2bcbe4b558cba482d4c7f35d6e7f2f9cc9" upstream="marshmallow-x86"/>
   <project groups="pdk" name="device/sample" revision="b239828ba6f282793de417a46770c192c153ac47" upstream="refs/tags/android-6.0.1_r66"/>
-  <project name="kernel/common" path="kernel" remote="x86" revision="b50ac2d323e16201f359e1ac25f25613d97903f4" upstream="kernel-4.4"/>
+  <project name="kernel/common" path="kernel" remote="x86" revision="1ba3566e163ae89d9dae9b230a3b9799d6e2c61d" upstream="kernel-4.4"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r66"/>
   <project groups="pdk" name="platform/art" path="art" remote="x86" revision="1dff62f822392dd3f95ec23ba578bf42430ba112" upstream="marshmallow-x86"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="x86" revision="e025056a17320f1eb3347aa51462e08eca72e594" upstream="marshmallow-x86"/>
